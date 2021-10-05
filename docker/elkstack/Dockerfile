@@ -1,0 +1,5 @@
+FROM gsogol/docker-elk:latest
+
+EXPOSE 9200
+EXPOSE 5601
+EXPOSE 5044

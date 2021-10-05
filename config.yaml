@@ -1,0 +1,17 @@
+docker_repo: docker-ce.repo
+docker_user: sysad
+
+#ELK
+docker_elk_image_name: elk
+docker_elk_image_tag: latest
+docker_elk_container_name: elkstack
+elk_ports:
+  - 9200:9200
+  - 5601:5601
+  - 5044:5044
+
+docker_elk_dockerfile_path: docker/elkstack
+
+
+
+  
